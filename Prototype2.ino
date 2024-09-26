@@ -1,6 +1,6 @@
 #include <DHT.h> // Inclui biblioteca para o funcionamento do sensor
 
-#include "thingProperties.h" // Inclui a biblioteca para que a integração do código com a plataforma funcione
+#include "thingProperties.h" // Inclui a biblioteca necessária para a integração do circuíto com a plataforma arduíno cloud
 const int DHTPIN = 32;
 const int DHTTYPE = DHT11;
 float temperatura = 0;
